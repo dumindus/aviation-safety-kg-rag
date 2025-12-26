@@ -19,6 +19,11 @@ The current script (phase_01.py) performs the following operations:
 4. Graph Transformation: Generates a unique entity_id for every accident and manufacturer. Creates separate CSV files for nodes.csv and relationships.csv.
 5. Cypher Scripting: Automatically generates a neo4j_import.cypher script to automate the loading process into a Neo4j instance.
 
+## 📅 Roadmap
+* [x] Phase 01: Data Cleaning & Preprocessing
+* [ ] Phase 02: Neo4j Graph Implementation
+* [ ] Phase 03: RAG Interface & Natural Language Querying (Cypher Generation)
+
 ⚠️ Note: If you plan to run the resulting Cypher script, you will need a Neo4j instance with the APOC plugin enabled.
 For this RAG, in phase 02, we are using a Neo4J Aura instance.
 
