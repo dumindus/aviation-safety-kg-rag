@@ -52,3 +52,14 @@ Upon running phase_02.py, the following are generated:
 * [x] Phase 01: Data Cleaning & Preprocessing
 * [x] Phase 02: Neo4j Graph Implementation
 * [ ] Phase 03: RAG Interface & Natural Language Querying (Cypher Generation)
+
+## Aviation Knowledge Graph (Sample with 100 nodes)
+### Graph Statistics:
+* Total Nodes: {'count': 151559}
+* Total Relationships: {'count': 137397}
+* Node Types: {'type': 'Accident', 'count': 68733}
+* Relationship Types: {'type': 'OCCURRED_AT', 'count': 68681}
+* Graph Density: {'density': 5.981590164560622e-06}
+* Average Degree: {'avg_degree': 1.813115684320973}
+
+![Description of my image](Generated_Graph.png)
