@@ -32,3 +32,23 @@ You will need a Neo4j instance (Aura DB recommended) and a Groq API key for the 
 ### 2. Installation
 ```bash
 pip install neo4j py2neo langchain-openai tqdm networkx matplotlib seaborn
+```
+
+### 3. Setup
+Configure your credentials in the script:
+```python
+NEO4J_URI = "your_neo4j_uri"
+NEO4J_PASSWORD = "your_password"
+GROQ_API_KEY = "your_groq_api_key"
+```
+
+## 📊 Outputs
+Upon running phase_02.py, the following are generated:
+1. Aviation KG Metadata: A JSON file describing the graph structure.
+2. Schema Validation: Reports on node counts, relationship density, and property coverage.
+3. Cypher Scripts: Optimized queries for data ingestion and index creation.
+
+## 📅 Roadmap
+* [x] Phase 01: Data Cleaning & Preprocessing
+* [x] Phase 02: Neo4j Graph Implementation
+* [ ] Phase 03: RAG Interface & Natural Language Querying (Cypher Generation)
