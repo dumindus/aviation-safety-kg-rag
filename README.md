@@ -1,11 +1,12 @@
 # GraphRAG: KG-based RAG for Querying Aviation Safety Data
 
-A multi-phase Knowledge Graph-based Retrieval-Augmented Generation (RAG) system designed to query aviation accident/safety data using natural language.
-
+A multi-phase Knowledge Graph-based Retrieval-Augmented Generation (RAG) system designed to query aviation accident/safety data using natural language. This repository supports the paper “Building Trust in the Skies: A Knowledge-Grounded LLM-based Framework for Aviation Safety.” Portions of the code were developed and prototyped in Google Colab with assistance from Google Gemini.
 
 
 ## 📌 Project Overview
 Traditional RAG systems often struggle with structured data relationships. This project implements a **GraphRAG** approach, transforming tabular aviation records into a Neo4j Knowledge Graph. By combining the reasoning capabilities of LLMs (via Groq) with the relational depth of a Knowledge Graph, the system can answer complex safety queries that standard vector searches cannot.
+
+![Description of my image](System_Architecture.png)
 
 ## 🏗️ Project Structure & Phases
 
