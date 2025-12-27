@@ -1,7 +1,7 @@
 # KG-based RAG for Querying Aviation Safety Data | Phase 01
 This repository contains Phase 01 of the Knowledge Graph-based Retrieval-Augmented Generation (RAG) system. The project focuses on preprocessing real-world National Transportation Safety Board (NTSB) aviation accident data to prepare it for ingestion into a Neo4j Graph Database.
 
-# 🎯 Project Overview
+# 🎯 Phase 01 Overview
 The goal of this phase is to transform raw aviation datasets (Accidents, Aircraft, Engines) into structured Nodes and Relationships. This structure allows for complex semantic queries that traditional vector databases struggle with, such as "Find all engine failures in CESSNA aircraft occurring in high-altitude regions."
 
 # 🛠️ Technical Stack
