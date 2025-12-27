@@ -4,7 +4,7 @@ This phase focuses on the **Knowledge Graph (KG) Construction** using Neo4j. It 
 
 
 
-## 🎯 Objectives
+## 🎯 Phase 02 Objectives
 * **Establish Connectivity:** Create a secure bridge between Google Colab and Neo4j Aura (Cloud).
 * **Data Integrity:** Implement unique constraints and high-speed indexes for reliable data retrieval.
 * **Knowledge Graph Population:** Transform tabular NTSB data into a network of Accidents, Aircraft, and Manufacturers.
